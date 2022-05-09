@@ -1,0 +1,37 @@
+TileBuilder.cs
+Make it to spawn actual prefabs. ? Not Possible ?
+Make snap.                        V
+Make a curve option.              V
+https://youtu.be/wgCxcOXMGgA
+http://www.theappguruz.com/blog/bezier-curve-in-games
+
+Make tiles spawn when a button is clicked (TileBuilder.cs l:111) V
+
+
+Fix errors:
+- Cannot spawn tiles on more than one curve (it only spawns on the first created)  V
+- Make Cancel Selection button              V
+
+///////// Give another material to tiles (TileBuilder.cs l:179) \\\\\\\\
+
+- Make the rotation of the tiles to match the rays			V
+- Make real time space calculation when in edit mode NTI	X
+- Spawn tiles in different chunk gameobjects				V
+- Make the tiles numeric									V
+- Add a reverse direction option                            V
+- Make Ctrl+Z work NTI										V
+
+Make next tile
+	- Add a gameObj ref to TileGame script				V
+	- Get the raycasted next tile					V
+
+Make the player
+	- Detect tiles with a raycast casting down on the tile layer	V
+	- get the next (dice) tiles										V
+	- be ready to move to it										V
+
+Make the branching
+	- array of possible paths
+	- arrows ui (clickable buttons)
+	- arrows point to all the possible paths
+	- rotate the raycast to the chosen arrow
